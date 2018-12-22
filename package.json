@@ -1,0 +1,29 @@
+{
+  "name": "leviathan",
+  "version": "0.0.1",
+  "description": "blood and thunder",
+  "main": "index.js",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"install:prod": "npm install --production",
+		"run:server": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overtheline/Leviathan.git"
+  },
+  "keywords": [
+    "Blood",
+    "and",
+    "Thunder"
+  ],
+  "author": "Aaron Keel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/overtheline/Leviathan/issues"
+  },
+  "homepage": "https://github.com/overtheline/Leviathan#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
